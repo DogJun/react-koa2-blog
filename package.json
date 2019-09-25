@@ -1,0 +1,53 @@
+{
+  "name": "react-koa2-blog",
+  "version": "1.0.0",
+  "description": "my blog with React & Koa2",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix src/",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DogJun/react-koa2-blog.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "koa2",
+    "mysql"
+  ],
+  "author": "DogJun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DogJun/react-koa2-blog/issues"
+  },
+  "homepage": "https://github.com/DogJun/react-koa2-blog#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.0.5",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
