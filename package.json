@@ -4,7 +4,8 @@
   "description": "my blog with React & Koa2",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "client:dev": "scripty",
+    "client:build": "scripty"
   },
   "husky": {
     "hooks": {
@@ -14,8 +15,8 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "prettier --write",
-      "eslint --fix src/",
-      "git add"
+      "eslint --fix src/**/*",
+      "git add ."
     ]
   },
   "repository": {
@@ -35,19 +36,32 @@
   },
   "homepage": "https://github.com/DogJun/react-koa2-blog#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.6.0",
     "@typescript-eslint/eslint-plugin": "^2.3.1",
     "@typescript-eslint/parser": "^2.3.1",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.14.3",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.5",
+    "lint-staged": "^9.3.0",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "scripty": "^1.9.1",
+    "typescript": "^3.6.3",
     "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-merge": "^4.2.2",
+    "yargs-parser": "^14.0.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^5.1.0"
   }
 }

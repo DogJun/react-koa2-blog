@@ -1,0 +1,86 @@
+Script started on Wed Sep 25 23:24:44 2019
+nvm is not compatible with the "npm_config_prefix" environment variable: currently set to "/Users/huangwenjun/.nvm/versions/node/v11.1.0"
+Run `unset npm_config_prefix` to unset it.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                         ]2;huangwenjun@huangwenjundeMacBook-Pro-2: ~/Documents/github/react-koa2-blog]1;..act-koa2-blog[0m[27m[24m[J[39m[0m[49m[40m[39m huangwenjun@huangwenjundeMacBook-Pro-2 [44m[30m[30m ~/Documents/github/react-koa2-blog [43m[34m[30m  master ● [49m[33m[39m [K[?1h=[?2004h[4mc[24m[24m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                                         ]2;huangwenjun@huangwenjundeMacBook-Pro-2: ~/Documents/github/react-koa2-blog]1;..act-koa2-blog[0m[27m[24m[J[39m[0m[49m[40m[39m huangwenjun@huangwenjundeMacBook-Pro-2 [44m[30m[30m ~/Documents/github/react-koa2-blog [43m[34m[30m  master ● [49m[33m[39m [K[?1h=[?2004h[32mclear[39m[1m[31mn[1m[31mp[1m[31mm[0m[39m[39m [39mrun client:start[?1l>[?2004l
+]2;npm run client:start]1;npmzsh: command not found: npm
+[1m[7m%[27m[1m[0m                                                                                                                                                                                         ]2;huangwenjun@huangwenjundeMacBook-Pro-2: ~/Documents/github/react-koa2-blog]1;..act-koa2-blog[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m huangwenjun@huangwenjundeMacBook-Pro-2 [44m[30m[30m ~/Documents/github/react-koa2-blog [43m[34m[30m  master ● [49m[33m[39m [K[?1h=[?2004h[1m[31mnpm[0m[39m run client:start[20D[0m[32mc[0m[32ml[0m[32me[32ma[32mr[39m               [15D[1m[31mn[1m[31mp[1m[31mm[0m[39m[39m [39mrun client:start          [4mc[24m [24m    [1m[31mn[1m[31mp[0m[39m[0m[39m [0m[39m[4mn[24m[0m[39m [24m [4mn[24m[24m[1m[31mn[1m[31mv[0m[39m[1m[31mn[1m[31mv[1m[31mk[0m[39m[1m[31mn[1m[31mv[0m[39m[0m[39m [0m[32mn[0m[32mv[32mm[39m[1m[31mn[1m[31mv[0m[39m[39m [0m[39m[4mn[24m[0m[39m [24m [4mn[24m[24m[1m[31mn[1m[31mp[0m[39m[1m[31mn[1m[31mp[1m[31mm[0m[39m run [4mc[24m[24mcl[4mc[24m [24m    [1m[31mn[1m[31mp[0m[39m[0m[39m [0m[39m[4mn[24m[0m[39m [24m [4mn[24m[24m[1m[31mn[1m[31mv[0m[39m[0m[32mn[0m[32mv[32mm[39m [?1l>[?2004l
+]2;nvm]1;nvm
+Node Version Manager
+
+Note: <version> refers to any version-like string nvm understands. This includes:
+  - full or partial version numbers, starting with an optional "v" (0.10, v0.1.2, v1)
+  - default (built-in) aliases: node, stable, unstable, iojs, system
+  - custom aliases you define with `nvm alias foo`
+
+ Any options that produce colorized output should respect the `--no-colors` option.
+
+Usage:
+  nvm --help                                Show this message
+  nvm --version                             Print out the installed version of nvm
+  nvm install [-s] <version>                Download and install a <version>, [-s] from source. Uses .nvmrc if available
+    --reinstall-packages-from=<version>     When installing, reinstall packages installed in <node|iojs|node version number>
+    --lts                                   When installing, only select from LTS (long-term support) versions
+    --lts=<LTS name>                        When installing, only select from versions for a specific LTS line
+    --skip-default-packages                 When installing, skip the default-packages file if it exists
+    --latest-npm                            After installing, attempt to upgrade to the latest working npm on the given node version
+  nvm uninstall <version>                   Uninstall a version
+  nvm uninstall --lts                       Uninstall using automatic LTS (long-term support) alias `lts/*`, if available.
+  nvm uninstall --lts=<LTS name>            Uninstall using automatic alias for provided LTS line, if available.
+  nvm use [--silent] <version>              Modify PATH to use <version>. Uses .nvmrc if available
+    --lts                                   Uses automatic LTS (long-term support) alias `lts/*`, if available.
+    --lts=<LTS name>                        Uses automatic alias for provided LTS line, if available.
+  nvm exec [--silent] <version> [<command>] Run <command> on <version>. Uses .nvmrc if available
+    --lts                                   Uses automatic LTS (long-term support) alias `lts/*`, if available.
+    --lts=<LTS name>                        Uses automatic alias for provided LTS line, if available.
+  nvm run [--silent] <version> [<args>]     Run `node` on <version> with <args> as arguments. Uses .nvmrc if available
+    --lts                                   Uses automatic LTS (long-term support) alias `lts/*`, if available.
+    --lts=<LTS name>                        Uses automatic alias for provided LTS line, if available.
+  nvm current                               Display currently activated version
+  nvm ls                                    List installed versions
+  nvm ls <version>                          List versions matching a given <version>
+  nvm ls-remote                             List remote versions available for install
+    --lts                                   When listing, only show LTS (long-term support) versions
+  nvm ls-remote <version>                   List remote versions available for install, matching a given <version>
+    --lts                                   When listing, only show LTS (long-term support) versions
+    --lts=<LTS name>                        When listing, only show versions for a specific LTS line
+  nvm version <version>                     Resolve the given description to a single local version
+  nvm version-remote <version>              Resolve the given description to a single remote version
+    --lts                                   When listing, only select from LTS (long-term support) versions
+    --lts=<LTS name>                        When listing, only select from versions for a specific LTS line
+  nvm deactivate                            Undo effects of `nvm` on current shell
+  nvm alias [<pattern>]                     Show all aliases beginning with <pattern>
+  nvm alias <name> <version>                Set an alias named <name> pointing to <version>
+  nvm unalias <name>                        Deletes the alias named <name>
+  nvm install-latest-npm                    Attempt to upgrade to the latest working `npm` on the current node version
+  nvm reinstall-packages <version>          Reinstall global `npm` packages contained in <version> to current version
+  nvm unload                                Unload `nvm` from shell
+  nvm which [current | <version>]           Display path to installed node version. Uses .nvmrc if available
+  nvm cache dir                             Display path to the cache directory for nvm
+  nvm cache clear                           Empty cache directory for nvm
+
+Example:
+  nvm install 8.0.0                     Install a specific version number
+  nvm use 8.0                           Use the latest available 8.0.x release
+  nvm run 6.10.3 app.js                 Run app.js using node 6.10.3
+  nvm exec 4.8.3 node app.js            Run `node app.js` with the PATH pointing to node 4.8.3
+  nvm alias default 8.1.0               Set default node version on a shell
+  nvm alias default node                Always default to the latest available node version on a shell
+
+Note:
+  to remove, delete, or uninstall nvm - just remove the `$NVM_DIR` folder (usually `~/.nvm`)
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                         ]2;huangwenjun@huangwenjundeMacBook-Pro-2: ~/Documents/github/react-koa2-blog]1;..act-koa2-blog[0m[27m[24m[J[39m[0m[49m[40m[39m huangwenjun@huangwenjundeMacBook-Pro-2 [44m[30m[30m ~/Documents/github/react-koa2-blog [43m[34m[30m  master ● [49m[33m[39m [K[?1h=[?2004h[4mn[24m[24m [32mw[39m[1m[31mw[1m[31mh[0m[39m[1m[31mw[1m[31mh[1m[31me[0m[39m[1m[31me[1m[31mr[0m[39m[0m[32mw[0m[32mh[0m[32me[0m[32mr[32me[39m[1m[31mw[1m[31mh[1m[31me[1m[31mr[1m[31me[1m[31mi[0m[39m [4ms[24m[24m [0m[32mw[0m[32mh[0m[32me[0m[32mr[0m[32me[0m[32mi[32ms[39m [4mn[24m[24mnvm [4mn[24m [24mnpm[?1l>[?2004l
+]2;whereis npm]1;whereis[1m[7m%[27m[1m[0m                                                                                                                                                                                         ]2;huangwenjun@huangwenjundeMacBook-Pro-2: ~/Documents/github/react-koa2-blog]1;..act-koa2-blog[0m[27m[24m[J[39m[0m[49m[40m[39m huangwenjun@huangwenjundeMacBook-Pro-2 [44m[30m[30m ~/Documents/github/react-koa2-blog [43m[34m[30m  master ● [49m[33m[39m [K[?1h=[?2004h[4mn[24m[24m[1m[31mn[1m[31mv[0m[39m[0m[32mn[0m[32mv[32mm[39m ls[?1l>[?2004l
+]2;nvm ls]1;nvm[0;34m       v10.16.3[0m
+[0;34m        v11.1.0[0m
+[0;34mdefault[0m [0;90m->[0m [0;34mstable[0m ([0;90m->[0m [0;34mv11.1.0[0m)
+[0;34mnode[0m [0;90m->[0m [0;34mstable[0m ([0;90m->[0m [0;34mv11.1.0[0m) [0;37m(default)[0m
+[0;34mstable[0m [0;90m->[0m [0;34m11.1[0m ([0;90m->[0m [0;34mv11.1.0[0m) [0;37m(default)[0m
+[1;31miojs[0m [0;90m->[0m [1;31mN/A[0m [0;37m(default)[0m
+[1;33mlts/*[0m [0;90m->[0m [1;33mlts/dubnium[0m ([0;90m->[0m [0;34mv10.16.3[0m)
+[1;33mlts/argon[0m [0;90m->[0m [1;31mv4.9.1[0m ([0;90m->[0m [1;31mN/A[0m)
+[1;33mlts/boron[0m [0;90m->[0m [1;31mv6.17.1[0m ([0;90m->[0m [1;31mN/A[0m)
+[1;33mlts/carbon[0m [0;90m->[0m [1;31mv8.16.1[0m ([0;90m->[0m [1;31mN/A[0m)
+[1;33mlts/dubnium[0m [0;90m->[0m [0;34mv10.16.3[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                         ]2;huangwenjun@huangwenjundeMacBook-Pro-2: ~/Documents/github/react-koa2-blog]1;..act-koa2-blog[0m[27m[24m[J[39m[0m[49m[40m[39m huangwenjun@huangwenjundeMacBook-Pro-2 [44m[30m[30m ~/Documents/github/react-koa2-blog [43m[34m[30m  master ● [49m[33m[39m [K[?1h=[?2004h
