@@ -11,6 +11,7 @@ const baseConfig = {
   entry: resolve('src/client/index.tsx'),
   output: {
     path: resolve(__dirname, 'dist'),
+    publicPath: '/'
   },
   module: {
     rules: [

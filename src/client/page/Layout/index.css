@@ -1,0 +1,5 @@
+.layout-main {
+  min-height: calc(100% - 350px - 80px);
+  max-width: 640px;
+  margin: 0 auto;
+}
