@@ -1,8 +1,10 @@
-import React from "react"
+import React from 'react'
+import routes from '../routes'
+import { BrowserRouter } from 'react-router-dom'
 const App = () => {
   return (
     <>
-      <h1>hello blog</h1>
+      <BrowserRouter basename="/">{routes}</BrowserRouter>
     </>
   )
 }

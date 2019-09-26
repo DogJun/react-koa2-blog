@@ -17,7 +17,9 @@ module.exports = {
   // 插件
   plugins: ["@typescript-eslint", "react"],
   // 规则
-  rules: {},
+  rules: {
+    '@typescript-eslint/explicit-function-return-type': 0
+  },
   settings: {
     react: {
       version: 'detect'

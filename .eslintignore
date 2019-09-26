@@ -1,0 +1,8 @@
+dist
+config
+node_modules
+*.js
+*.css
+*.html
+*.png
+*.jpeg

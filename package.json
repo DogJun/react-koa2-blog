@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "client:dev": "scripty",
-    "client:build": "scripty"
+    "client:build": "scripty",
+    "commit": "git cz"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit": "git cz"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -43,25 +43,34 @@
   "homepage": "https://github.com/DogJun/react-koa2-blog#readme",
   "devDependencies": {
     "@babel/core": "^7.6.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.6.0",
+    "@types/react": "^16.9.3",
+    "@types/react-router-dom": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^2.3.1",
     "@typescript-eslint/parser": "^2.3.1",
     "babel-loader": "^8.0.6",
     "commitizen": "^4.0.3",
     "commitlint-config-gitmoji": "^1.0.1",
+    "css-loader": "^3.2.0",
     "cz-emoji": "^1.1.2",
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.2.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.5",
     "lint-staged": "^9.3.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^1.18.2",
     "scripty": "^1.9.1",
     "typescript": "^3.6.3",
+    "url-loader": "^2.1.0",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1",
@@ -69,6 +78,8 @@
     "yargs-parser": "^14.0.0"
   },
   "dependencies": {
+    "mobx": "^5.13.0",
+    "mobx-react-lite": "^1.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.0"
