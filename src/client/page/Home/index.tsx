@@ -1,10 +1,11 @@
 import * as React from 'react'
 import Layout from '../Layout'
-import Home from '../../components/Home'
-
+import LayoutLine from '../../components/LayoutLine'
+import PostList from '../../components/PostList'
 const HomePage = () => (
   <Layout>
-    <Home />
+    <LayoutLine title="CODING" />
+    <PostList />
   </Layout>
 )
 

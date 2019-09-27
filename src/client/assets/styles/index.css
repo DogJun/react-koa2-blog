@@ -19,7 +19,10 @@ html {
 html, body, #root {
   height: 100%;
 }
-
+a {
+  text-decoration: none;
+  color: var(--mainColor);
+}
 
 @font-face {font-family: "iconfont";
   src: url('../fonts/iconfont.eot?t=1543915738002'); /* IE9*/

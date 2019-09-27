@@ -18,7 +18,8 @@ module.exports = {
   plugins: ["@typescript-eslint", "react"],
   // 规则
   rules: {
-    '@typescript-eslint/explicit-function-return-type': 0
+    '@typescript-eslint/explicit-function-return-type': 0,
+    "react/prop-types": 0
   },
   settings: {
     react: {

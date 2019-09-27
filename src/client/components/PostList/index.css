@@ -1,0 +1,19 @@
+.posts-list {
+  margin-bottom: 30px;
+  padding: 0 10px;
+  list-style: none;
+  & li {
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    & .title {
+      color: #333;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    & .createTime {
+      font-size: 12px;
+    }
+  }
+}
