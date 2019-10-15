@@ -6,6 +6,8 @@
   "scripts": {
     "client:dev": "scripty",
     "client:build": "scripty",
+    "server:dev": "scripty",
+    "server:start": "scripty",
     "commit": "git cz"
   },
   "husky": {
@@ -53,6 +55,7 @@
     "babel-loader": "^8.0.6",
     "commitizen": "^4.0.3",
     "commitlint-config-gitmoji": "^1.0.1",
+    "cross-env": "^6.0.3",
     "css-loader": "^3.2.0",
     "cz-emoji": "^1.1.2",
     "eslint": "^6.4.0",
@@ -61,6 +64,8 @@
     "eslint-plugin-react": "^7.14.3",
     "file-loader": "^4.2.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.5",
     "lint-staged": "^9.3.0",
@@ -69,6 +74,7 @@
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.18.2",
     "scripty": "^1.9.1",
+    "ts-node-dev": "^1.0.0-pre.43",
     "typescript": "^3.6.3",
     "url-loader": "^2.1.0",
     "webpack": "^4.41.0",
@@ -78,10 +84,15 @@
     "yargs-parser": "^14.0.0"
   },
   "dependencies": {
+    "inversify": "^5.0.1",
+    "inversify-binding-decorators": "^4.0.0",
+    "inversify-koa-utils": "^1.0.0",
+    "koa-bodyparser": "^4.2.1",
     "mobx": "^5.13.0",
     "mobx-react-lite": "^1.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^5.1.0"
+    "react-router-dom": "^5.1.0",
+    "reflect-metadata": "^0.1.13"
   }
 }

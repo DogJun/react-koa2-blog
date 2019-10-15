@@ -1,0 +1,1 @@
+cross-env NODE_ENV=development tsnd --respawn --transpileOnly ./dist/app.ts
