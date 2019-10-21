@@ -1,15 +1,18 @@
-import * as bodyParser from 'koa-bodyparser'
-import { InversifyKoaServer } from 'inversify-koa-utils'
-import { Container, buildProviderModule } from './ioc/ioc'
-import 'reflect-metadata'
-const container = new Container()
+import * as bodyParser from 'koa-bodyparser';
+import { InversifyKoaServer } from 'inversify-koa-utils';
+import { Container, buildProviderModule } from './ioc/ioc';
+import 'reflect-metadata';
+import './ioc/inversify.config';
+// set up container
+const container = new Container();
 // create server
-const server = new InversifyKoaServer(container)
-container.load(buildProviderModule())
+// 核心，告诉container，你用我方式去找 @provide @injectable
+container.load(buildProviderModule());
+const server = new InversifyKoaServer(container);
 server.setConfig(app => {
   // add body parser
-  app.use(bodyParser({}))
-})
+  app.use(bodyParser({}));
+});
 
-const app = server.build()
-app.listen(3000)
+const app = server.build();
+app.listen(9000);

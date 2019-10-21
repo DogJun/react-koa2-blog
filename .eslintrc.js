@@ -19,7 +19,9 @@ module.exports = {
   // 规则
   rules: {
     '@typescript-eslint/explicit-function-return-type': 0,
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/no-explicit-any": 0
   },
   settings: {
     react: {
