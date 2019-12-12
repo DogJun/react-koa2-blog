@@ -1,7 +1,6 @@
 import { IIdex } from '../interface/IIndex';
 import { User } from '../model/User';
-import { TAGS, provide } from '../ioc/ioc';
-@provide(TAGS.IndexService)
+
 export class IndexService implements IIdex {
   private userStorage: User[] = [
     {
