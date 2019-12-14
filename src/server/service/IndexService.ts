@@ -1,7 +1,7 @@
-import { IIdex } from '../interface/IIndex';
-import { User } from '../model/User';
+import { IIdex } from '../interface/IIndex'
+import { User } from '../model/User'
 
-export class IndexService implements IIdex {
+export default class IndexService implements IIdex {
   private userStorage: User[] = [
     {
       email: 'huangwenjun@codemao.cn',
@@ -11,9 +11,9 @@ export class IndexService implements IIdex {
       email: 'taoyifei@codemao.cn',
       name: 'taoyifei',
     },
-  ];
+  ]
   public getUser(id: string): User {
-    const result: User = this.userStorage[id];
-    return result;
+    const result: User = this.userStorage[id]
+    return result
   }
 }
