@@ -1,6 +1,7 @@
 const { join, resolve } = require('path')
 const merge = require('webpack-merge')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const args = require('yargs-parser')(process.argv.slice(2))
 const mode = args.mode || 'development'
 const isProd = mode == "production" ? true : false;
@@ -56,10 +57,7 @@ const baseConfig = {
     ]
   },
   resolve: {
-    alias: {
-      '@components': resolve('src/client/components'),
-      '@page': resolve('src/client/page'),
-    },
+    plugins: [new TsconfigPathsPlugin({ configFile: "./tsconfig.json" })],
     extensions: ['.js', '.ts', '.jsx', '.tsx']
   },
   plugins: [

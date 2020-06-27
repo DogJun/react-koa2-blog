@@ -19,7 +19,7 @@ const PostList = () => {
       {article.length
         ? article.map(item => {
             return (
-              <li v-for="item in article" key={item.id}>
+              <li key={item.id}>
                 <NavLink className="title" to="`/post/${item.id}`">
                   {item.title}
                 </NavLink>

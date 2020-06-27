@@ -5,7 +5,7 @@ const LayoutHeader = () => (
   <header>
     <img
       className="avatar"
-      src={require('./../../assets/imgs/avatar.jpeg')}
+      src={require('@assets/imgs/avatar.jpeg')}
       alt="avatar"
     />
     <p className="name">DogJun@1995</p>

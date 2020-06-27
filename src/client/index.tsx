@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import ReactDom from 'react-dom'
 import App from './page/App'
 import './assets/styles/index.css'

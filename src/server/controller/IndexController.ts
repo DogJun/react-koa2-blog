@@ -5,7 +5,6 @@ import { User } from '../model/User'
 export default class IndexController {
   private indexService
   constructor({ indexService }) {
-    console.log('indexService', indexService)
     this.indexService = indexService
   }
   @route('/')
